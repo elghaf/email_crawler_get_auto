@@ -9,5 +9,7 @@ from itemadapter import ItemAdapter
 
 
 class EmailScPipeline:
+
     def process_item(self, item, spider):
         return item
+        
